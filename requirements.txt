@@ -1,0 +1,11 @@
+ollama
+streamlit 
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+unstructured[pdf]
+langchain-openai
+langchain-qdrant
+nltk
+python-dotenv
