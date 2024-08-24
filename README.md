@@ -1,8 +1,7 @@
 # pdfchat
 《探秘LLM应用开发应用》示例代码
 
-
-### 本地环境(macos)安装方法：
+### 本地开发环境安装方法：
 
 * 安装unstructured依赖(windows 需要手工下载)
 ```
@@ -13,12 +12,10 @@ apt-get update && apt-get install -y libmagic-dev poppler-utils tesseract-ocr li
 ```
 * 下载nltk包
 ```
-import nltk
-nltk.download('punkt_tab')
-nltk.download('averaged_perceptron_tagger_eng')
+python setup_libs.py
 ```
 
-* 拉取模型
+* 官网下载ollama，然后拉取模型
 ```
 ollama pull nomic-embed-text
 ollama pull phi3:mini
