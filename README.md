@@ -11,6 +11,10 @@ brew install libmagic  poppler  tesseract
 linux debian:
 apt-get update && apt-get install -y libmagic-dev poppler-utils tesseract-ocr libgl1
 ```
+* 安装python依赖
+```
+pip install -r requirements.txt
+```  
 * 下载nltk包
 ```
 python setup_libs.py
