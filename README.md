@@ -6,7 +6,8 @@
 * 安装unstructured依赖(windows 需要手工下载)
 ```
 mac:
-brew intall libmagic  poppler libreoffice pandoc tesseract
+brew install libmagic  poppler  tesseract
+
 linux debian:
 apt-get update && apt-get install -y libmagic-dev poppler-utils tesseract-ocr libgl1
 ```
