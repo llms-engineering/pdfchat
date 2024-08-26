@@ -44,7 +44,7 @@ cde551d98021   qdrant/qdrant:v1.11.0              "./entrypoint.sh"         Abou
 ```
 * 拉取模型
 ```
-docker exec -it {app_containerId} ollama run nomic-embed-text
-docker exec -it {app_containerId} ollama run phi3:mini
+docker exec -it {app_containerId} ollama pull nomic-embed-text
+docker exec -it {app_containerId} ollama pull phi3:mini
 ```
 *enjoy it!*
